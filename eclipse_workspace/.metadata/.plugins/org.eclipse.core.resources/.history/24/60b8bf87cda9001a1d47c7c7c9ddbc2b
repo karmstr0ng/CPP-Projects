@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CPP_SRCS += \
+../src/Constructor\ Initialization\ List.cpp 
+
+OBJS += \
+./src/Constructor\ Initialization\ List.o 
+
+CPP_DEPS += \
+./src/Constructor\ Initialization\ List.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+src/Constructor\ Initialization\ List.o: ../src/Constructor\ Initialization\ List.cpp
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross G++ Compiler'
+	g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructor Initialization List.d" -MT"src/Constructor\ Initialization\ List.d" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+
