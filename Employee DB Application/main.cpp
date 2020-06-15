@@ -19,9 +19,9 @@ int main() {
 	cout << "Please enter the employee number: " << flush;
 	cin >> number;
 
-	person1.setEmp_no(number);
+//	person1.setEmp_no(number);
 
-	person1.getEmp_no(number);
+//	person1.getEmp_no(number);
 
 	return 0;
 }

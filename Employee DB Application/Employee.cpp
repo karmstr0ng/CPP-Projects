@@ -14,13 +14,19 @@ using namespace std;
 
 Person::Person() {
 	cout << "This is the Person constructor" << endl;
-
 }
 
 Person::~Person() {
 	cout << "This is the Person destructor" << endl;
 }
 
-Person::setEmp_no(string number) {
+/*Person::setEmp_no(string number) {
+	cout << "Number is: " << number << endl;
+}*/
 
-}
+/*Person::setEmp_no(int no) {
+	cout << no << endl;
+
+	return 0;
+}*/
+

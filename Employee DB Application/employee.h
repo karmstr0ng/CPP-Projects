@@ -16,19 +16,19 @@ using namespace std;
 
 class Person {
 private:
-	string emp_no;
-	string firstname;
-	string lastname;
-	string pos_title;
+
+	int emp_no = 0;
+	string firstname = "";
+	string lastname = "";
+	string pos_title = "";
 	time_t birthdate;
 	time_t hiredate;
 	char gender;
 
 public:
 	Person();
-	~Person();
 
-	void setEmp_no(string emp_number) { this->emp_no = emp_number; }
+	void setEmp_no(int no) { this->emp_no = no; }
 	void setFirstname(string fname) { this->firstname = fname; }
 	void setLastname(string lname){ this->lastname = lname; }
 	void setTitle(string title) { this->pos_title = title; }
@@ -36,9 +36,9 @@ public:
 	void setHiredate(time_t hiredate) { this->hiredate = hiredate; }
 	void setGender(char gender) { this->gender = gender; }
 
+	string getEmp_no(int emp_number);
 
-	string getEmp_no(string emp_number);
-
+	~Person();
 };
 
 class Empsalary: public Person {
