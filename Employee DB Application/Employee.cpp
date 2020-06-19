@@ -20,7 +20,7 @@ Person::Person(){
 
 }
 
-Person::Person(int no, string fname, string lname, string title, time_t birthday, time_t hiredate, char gender) {
+Person::Person(string no, string fname, string lname, string title, time_t birthday, time_t hiredate, char gender) {
 
 	cout << "This is the second Person constructor" << endl;
 
@@ -47,8 +47,8 @@ Person::~Person() {
 	setGender(char gender) { this->gender = gender; }*/
 
 
-void Person::setEmp_no(int number) {
-	cout << "Number is: " << number << endl;
+void Person::setEmp_no(string no) {
+	cout << "Number is: " << no << endl;
 }
 
 // Don't need this implimentation'

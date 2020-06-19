@@ -17,7 +17,7 @@ using namespace std;
 class Person {
 private:
 
-	int emp_no = 0;
+	string emp_no = 0;
 	string firstname = "";
 	string lastname = "";
 	string pos_title = "";
@@ -27,9 +27,9 @@ private:
 
 public:
 	Person();
-	Person(int no, string fname, string lname, string title, time_t birthday, time_t hiredate, char gender);
+	Person(string no, string fname, string lname, string title, time_t birthday, time_t hiredate, char gender);
 
-	void setEmp_no(int no);
+	void setEmp_no(string no);
 	void setFirstname(string fname);
 	void setLastname(string lname);
 	void setTitle(string title);
