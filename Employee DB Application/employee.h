@@ -2,6 +2,8 @@
  * employee.h
  *
  *  Created on: Jun 10, 2020
+ *  Updated on: Jun 19, 2020
+ *  changed setEmp_no(string no) from int to string
  *      Author: kevin
  */
 #include <iostream>
