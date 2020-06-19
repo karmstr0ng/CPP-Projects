@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Constructor Initialization List/src/Constructor Initialization List.cpp&apos; to &apos;This.cpp&apos;" description="Rename resource &apos;Constructor Initialization List.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Constructor Initialization List.cpp" name="This.cpp" stamp="1591648799191" updateReferences="true"/>
+</session>

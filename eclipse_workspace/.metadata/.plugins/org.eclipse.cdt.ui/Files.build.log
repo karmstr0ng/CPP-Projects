@@ -1,0 +1,7 @@
+12:15:10 **** Rebuild of configuration Debug for project Files ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Files.o" "..\\src\\Files.cpp" 
+g++ -o Files "src\\Files.o" 
+
+12:15:12 Build Finished. 0 errors, 0 warnings. (took 1s.343ms)
+

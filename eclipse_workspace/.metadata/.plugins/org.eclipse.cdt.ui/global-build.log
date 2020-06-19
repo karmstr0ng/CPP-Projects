@@ -1,0 +1,69 @@
+Info: Nothing to build for Employee DB Application
+Info: Nothing to build for Employee DB Application
+Info: Nothing to build for Classes
+09:56:03 **** Incremental Build of configuration Debug for project Employee DB Application ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Employee.o "..\\Employee.cpp" 
+In file included from ..\Employee.cpp:11:
+..\employee.h: In member function 'void Person::setEmp_no(std::__cxx11::string)':
+..\employee.h:31:63: error: expected ';' before '}' token
+  void setEmp_no(string emp_number) { this->emp_no = emp_number };
+                                                               ^~
+                                                               ;
+Info: Nothing to build for Classes
+09:56:21 **** Incremental Build of configuration Debug for project Employee DB Application ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Employee.o "..\\Employee.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Employee DB Application.exe" Employee.o main.o 
+Info: Nothing to build for Classes
+09:56:32 **** Incremental Build of configuration Debug for project Employee DB Application ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Employee.o "..\\Employee.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Employee DB Application.exe" Employee.o main.o 
+Info: Nothing to build for Classes
+09:59:16 **** Incremental Build of configuration Debug for project Employee DB Application ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Employee.o "..\\Employee.cpp" 
+g++ -o "Employee DB Application.exe" Employee.o main.o 
+Info: Nothing to build for Classes
+10:04:58 **** Incremental Build of configuration Debug for project Employee DB Application ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Employee.o "..\\Employee.cpp" 
+g++ -o "Employee DB Application.exe" Employee.o main.o 
+Info: Nothing to build for Classes
+10:25:50 **** Incremental Build of configuration Debug for project Employee DB Application ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Employee DB Application.exe" Employee.o main.o 
+main.o:main.cpp:(.rdata$.refptr._ZN6Person6emp_noB5cxx11E[.refptr._ZN6Person6emp_noB5cxx11E]+0x0): undefined reference to `Person::emp_no[abi:cxx11]'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Classes
+10:27:28 **** Incremental Build of configuration Debug for project Employee DB Application ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Employee.o "..\\Employee.cpp" 
+g++ -o "Employee DB Application.exe" Employee.o main.o 
+Info: Nothing to build for Classes
+10:28:53 **** Incremental Build of configuration Debug for project Employee DB Application ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:24:27: error: expected ';' before 'return'
+  person1.getEmp_no(number)
+                           ^
+                           ;
+..\main.cpp:26:2:
+  return 0;
+  ~~~~~~                    
+Info: Nothing to build for Classes
+10:29:04 **** Incremental Build of configuration Debug for project Employee DB Application ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Employee DB Application.exe" Employee.o main.o 
+main.o: In function `main':
+C:\Users\kevin\eclipse_workspace\Employee DB Application\Debug/../main.cpp:24: undefined reference to `Person::getEmp_no(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+collect2.exe: error: ld returned 1 exit status

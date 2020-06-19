@@ -1,0 +1,10 @@
+10:29:04 **** Incremental Build of configuration Debug for project Employee DB Application ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Employee DB Application.exe" Employee.o main.o 
+main.o: In function `main':
+C:\Users\kevin\eclipse_workspace\Employee DB Application\Debug/../main.cpp:24: undefined reference to `Person::getEmp_no(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+collect2.exe: error: ld returned 1 exit status
+
+10:29:05 Build Failed. 1 errors, 0 warnings. (took 1s.429ms)
+

@@ -1,0 +1,34 @@
+//============================================================================
+// Name        : Copy_Constructor.cpp
+// Author      : Kevin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Animal {
+private:
+	string name;
+
+public:
+	void setName(string name) { this->name = name; };
+	void speak() const { cout << "My name is: " << name << endl; }
+};
+
+int main() {
+
+	Animal animal1;
+
+	animal1.setName("Freddy");
+
+	Animal animal2 = animal1;
+
+	animal1.speak();
+	animal2.speak();
+
+
+	return 0;
+}

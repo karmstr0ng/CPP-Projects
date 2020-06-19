@@ -1,0 +1,43 @@
+/*
+ * employee.h
+ *
+ *  Created on: Jun 10, 2020
+ *      Author: kevin
+ */
+#include <iostream>
+#include <sstream>
+#include <ctime>
+
+
+using namespace std;
+
+#ifndef EMPLOYEE_H_
+#define EMPLOYEE_H_
+
+class person {
+private:
+	static string empidnum;
+	string firstname;
+	string lastname;
+	time_t birthdate;
+	time_t hiredate;
+	char gender;
+
+public:
+
+
+};
+
+class empsalary {
+private:
+	double long salary;
+	time_t from_date;
+	time_t to_date;
+	static string emp_no;
+
+
+public:
+
+};
+
+#endif /* EMPLOYEE_H_ */
