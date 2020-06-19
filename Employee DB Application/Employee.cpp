@@ -2,6 +2,8 @@
  * Employee.cpp
  *
  *  Created on: Jun 12, 2020
+ *  Updated on: Jun 19, 2020
+ *  	Fix employee class member function definition on line 45: void Person::setEmp_no(int number)
  *      Author: kevin
  */
 
@@ -45,9 +47,9 @@ Person::~Person() {
 	setGender(char gender) { this->gender = gender; }*/
 
 
-/*Person::setEmp_no(string number) {
+void Person::setEmp_no(int number) {
 	cout << "Number is: " << number << endl;
-}*/
+}
 
 // Don't need this implimentation'
 
