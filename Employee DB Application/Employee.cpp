@@ -12,17 +12,44 @@
 
 using namespace std;
 
-Person::Person() {
+Person::Person(){
+
 	cout << "This is the Person constructor" << endl;
+
+}
+
+Person::Person(int no, string fname, string lname, string title, time_t birthday, time_t hiredate, char gender) {
+
+	cout << "This is the second Person constructor" << endl;
+
+	this->emp_no = no;
+	this->firstname = fname;
+	this->lastname = lname;
+	this->pos_title = title;
+	this->birthdate = birthdate;
+	this->hiredate = hiredate;
+	this->gender = gender;
+
 }
 
 Person::~Person() {
 	cout << "This is the Person destructor" << endl;
 }
 
+	/*setEmp_no(int no) { this->emp_no = no; }
+	setFirstname(string fname) { this->firstname = fname; }
+	setLastname(string lname){ this->lastname = lname; }
+	setTitle(string title) { this->pos_title = title; }
+	setBirthdate(time_t birthdate) { this->birthdate = birthdate; }
+	setHiredate(time_t hiredate) { this->hiredate = hiredate; }
+	setGender(char gender) { this->gender = gender; }*/
+
+
 /*Person::setEmp_no(string number) {
 	cout << "Number is: " << number << endl;
 }*/
+
+// Don't need this implimentation'
 
 /*Person::setEmp_no(int no) {
 	cout << no << endl;

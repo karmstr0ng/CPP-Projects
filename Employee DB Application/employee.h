@@ -27,15 +27,15 @@ private:
 
 public:
 	Person();
+	Person(int no, string fname, string lname, string title, time_t birthday, time_t hiredate, char gender);
 
-	void setEmp_no(int no) { this->emp_no = no; }
-	void setFirstname(string fname) { this->firstname = fname; }
-	void setLastname(string lname){ this->lastname = lname; }
-	void setTitle(string title) { this->pos_title = title; }
-	void setBirthdate(time_t birthdate) { this->birthdate = birthdate; }
-	void setHiredate(time_t hiredate) { this->hiredate = hiredate; }
-	void setGender(char gender) { this->gender = gender; }
-
+	void setEmp_no(int no);
+	void setFirstname(string fname);
+	void setLastname(string lname);
+	void setTitle(string title);
+	void setBirthdate(time_t birthdate);
+	void setHiredate(time_t hiredate);
+	void setGender(char gender);
 	string getEmp_no(int emp_number);
 
 	~Person();
