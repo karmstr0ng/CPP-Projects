@@ -19,10 +19,10 @@ using namespace std;
 class Person {
 private:
 
-	string emp_no = 0;
-	string firstname = "";
-	string lastname = "";
-	string pos_title = "";
+	string emp_no = "0";
+	string firstname = "None";
+	string lastname = "None";
+	string pos_title = "None";
 	time_t birthdate;
 	time_t hiredate;
 	char gender;
@@ -38,21 +38,21 @@ public:
 	void setBirthdate(time_t birthdate);
 	void setHiredate(time_t hiredate);
 	void setGender(char gender);
-	string getEmp_no(int emp_number);
+	string getEmp_no(string emp_number);
 
 	~Person();
 };
 
-class Empsalary: public Person {
-private:
-	double long salary;
-	time_t from_date;
-	time_t to_date;
+ class Empsalary: public Person {
+ private:
+ 	double long salary;
+ 	time_t from_date;
+ 	time_t to_date;
 
-public:
-	void setSalary();
-	void setFromdate();
-	void setTodate();
+ public:
+ 	void setSalary();
+ 	void setFromdate();
+ 	void setTodate();
 
 };
 
